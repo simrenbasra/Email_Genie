@@ -1,0 +1,12 @@
+# don't upload data files
+*.csv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+.DS_Store
+*.pptx
+
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
