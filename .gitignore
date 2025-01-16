@@ -6,7 +6,10 @@
 .DS_Store
 *.pptx
 
+
 # Python bytecode files
 __pycache__/
 *.pyc
 *.pyo
+
+scrap_notebooks
