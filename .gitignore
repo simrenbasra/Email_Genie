@@ -13,3 +13,4 @@ __pycache__/
 *.pyo
 
 scrap_notebooks
+notebooks/03_embeddings/BERT_embeddings.pt
