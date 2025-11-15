@@ -38,7 +38,7 @@ cd Email_Genie
 ### Create & Activate a Virtual Environment
 
 ```bash
-conda create -n email_genie python=3.10 -y
+conda create -n email_genie python=3.10
 conda activate email_genie
 ```
 
@@ -52,9 +52,11 @@ Navigate to folder`email_genie` and run `python app.py`
 
 ## Project Directory
 
+```text
 Email_Genie
  ├── email_genie/         # Main application
  ├── notebooks/           # Exploratory research + findings
  ├── data/                # Processed Enron dataset + vector index
  ├── requirements.txt
  └── README.md
+ ```
