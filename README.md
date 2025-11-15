@@ -2,8 +2,6 @@
 # Email Genie
 ----
 
-## Web App For Semantic Search!
-
 ### 🌟 Welcome to the Enron Email Explorer! 🌟
 
 Curious about the emails behind Enron's infamous collapse? This app lets you search and explore the Enron email dataset!
