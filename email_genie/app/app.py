@@ -28,13 +28,13 @@ stop_words.update(email_stop_words)
 app = Flask(__name__)
 
 ## Load env vars (api key)
-load_dotenv(dotenv_path="API_key.env")
+load_dotenv(dotenv_path="app/API_key.env")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # load data and embeddings
-emails = pd.read_csv('cleaned_emails.csv')
-embeddings = joblib.load('EXT_embeddings_chunked.pkl')
-original_email_index = joblib.load('EXT_original_email_index.pkl')
+emails = pd.read_csv('app/cleaned_emails.csv')
+embeddings = joblib.load('app/EXT_embeddings_chunked.pkl')
+original_email_index = joblib.load('app/EXT_original_email_index.pkl')
 
 # set up vector db
 embedding_dim = embeddings.shape[1]
