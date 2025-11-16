@@ -58,13 +58,15 @@ To run this you need:
 
 1). OpenAI key
 
-    - create file `API_key.env` with Open AI key
-    - add to folder `app`
+- create file `API_key.env` with Open AI key
+
+- add to folder `app`
 
 2). Data files 
 
-    - all uploaded to my Google Drive [here]()
-    - add to folder `app`
+- all uploaded to my Google Drive [here]()
+
+- add to folder `app`
 
 ## Project Directory
 
