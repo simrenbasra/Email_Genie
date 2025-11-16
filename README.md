@@ -38,25 +38,41 @@ cd Email_Genie
 ### Create & Activate a Virtual Environment
 
 ```bash
-conda create -n email_genie python=3.10
+conda env create -f environment.yml -n email_genie
 conda activate email_genie
 ```
 
-### Install dependencies
+A requirements.txt file is also included for deployment if Conda is not available.
+To install dependencies via pip:
 
-`pip install -r requirements.txt`
+
+```bash
+pip install -r requirements.txt
+```
 
 ### Running the web app
 
-Navigate to folder`email_genie` and run `python app.py`
+Navigate to folder`email_genie` and run `python app/app.py`
+
+To run this you need:
+
+1). OpenAI key
+
+    - create file `API_key.env` with Open AI key
+    - add to folder `app`
+
+2). Data files 
+
+    - all uploaded to my Google Drive [here]()
+    - add to folder `app`
 
 ## Project Directory
 
 ```text
 Email_Genie
- ├── email_genie/         # Main application
+ ├── email_genie/         # Web application
  ├── notebooks/           # Exploratory research + findings
- ├── data/                # Processed Enron dataset + vector index
+ ├── data/                # Processed Enron dataset + vector index (too large to commit)
  ├── requirements.txt
  └── README.md
  ```
