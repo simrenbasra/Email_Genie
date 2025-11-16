@@ -14,3 +14,5 @@ __pycache__/
 
 scrap_notebooks
 notebooks/03_embeddings/BERT_embeddings.pt
+
+.env
